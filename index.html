@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Developer Sadi | Official Website</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"><span>Developer </span>
+                <span>Sadi</span>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#tech articles">Tech Articles</a></li>
+                    <li><a href="#contact me">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="firstSection">
+            <div class="leftSection">
+                <div><span class="greet">Hi,</span> My name is <span class="name">Sadi</span></div>
+                <div>and I am known as</div>
+                <div>a <span id="element" class="purple"></span></div>
+                <div class="buttons">
+                    <button class="resume">Download Resume</button>
+                    <button class="github">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="assets/profile.png" height="450px" alt="Photo">
+            </div>
+        </section>
+        <div id="about"></div>
+        <section class="secondSection">
+            <span class="headerText">What I have learned so far</span>
+            <h1 class="headerText">Work Experiences</h1>
+            <div class="box">
+                <img src="assets/html.svg" alt="">
+                <img src="assets/css.svg" alt="">
+                <img src="assets/javascript.svg" alt="">
+                <img src="assets/react.svg" alt="">
+                <img src="assets/tailwind.svg" alt="">
+                <img src="assets/bootstrap.svg" alt="">
+                <img src="assets/figma.svg" alt="">
+                <img src="assets/nodejs.svg" alt="">
+                <img src="assets/mongodb.svg" alt="">
+            </div>
+        </section>
+    </main>
+
+
+    <footer>www.developersadi.com | All rights reserved</footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Web Designer', 'Freelancer', 'Youtuber'],
+            typeSpeed: 45,
+            backSpeed: 40,
+            backDelay: 1200,
+            loop: true,
+            showCursor: true,
+            cursorChar: '|',
+            onComplete: function () {
+                console.log('Typing animation complete!');
+            }
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
